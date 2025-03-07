@@ -1,0 +1,26 @@
+.footer {
+    background-color: $celesteEurope;
+    margin-bottom: 0;
+
+    .contenedor-footer {
+        padding-top: $separacion / 2;
+        padding-bottom: $separacion / 2;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+.navegacion-footer {
+    display: flex;
+    gap: 3rem;
+
+    a {
+        color: $blancoSuave;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: 600;
+
+        
+    }
+}
+

@@ -1,0 +1,16 @@
+.contendor-program {
+    background-color: $blancoSuave;
+    padding: 2rem;
+    border: solid 1px $grisClaro;
+    border-radius: 1rem;
+
+    li {
+        font-weight: 600;
+    }
+}
+
+.contendor-program p {
+    &:first-of-type {
+        margin-top: 0;
+    }
+}
